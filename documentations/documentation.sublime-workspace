@@ -1,0 +1,289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"media",
+				"media"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"bacgr",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"col",
+				"col-lg-1"
+			],
+			[
+				"bt",
+				"btn-lg"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Add Channel"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Kynt/Desktop/Web Dev files/tuitt/csp1/Outline",
+		"/C/Users/Kynt/Desktop/Web Dev files/tuitt/mod02-11/activity/assets/css/style.css",
+		"/C/Users/Kynt/Desktop/Web Dev files/tuitt/mod02-11/activity/index.html",
+		"/C/Users/Kynt/Desktop/Web Dev files/personal projects/Tuitt/mod00-00/mod00-00/assets/css/style.css",
+		"/C/Users/Kynt/Desktop/Web Dev files/tuitt/mod02-08/activity/act10.html",
+		"/C/Users/Kynt/Desktop/Web Dev files/tuitt/mod02-08/activity/assets/css/style.css",
+		"/C/Users/Kynt/Desktop/Web Dev files/personal projects/Tuitt/mod00-00/mod00-00/index.html",
+		"/C/Users/Kynt/Desktop/Web Dev files/resources/index.html",
+		"/C/Users/Kynt/Desktop/Web Dev files/resources/assets/css/style.css",
+		"/C/Users/Kynt/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Kynt/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Kynt/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/Kynt/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Kynt/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Kynt/Desktop/Kynt Webdev/Photoshop Course/Porfolio Project/about.html",
+		"/C/Users/Kynt/Desktop/Kynt Webdev/Photoshop Course/Porfolio Project/services.html",
+		"/C/Users/Kynt/Desktop/Kynt Webdev/Photoshop Course/Porfolio Project/portfolio.html",
+		"/C/Users/Kynt/Desktop/Kynt Webdev/Photoshop Course/Porfolio Project/index.html",
+		"/C/Users/Kynt/Desktop/Kynt Webdev/Photoshop Course/Porfolio Project/contact.html",
+		"/C/Users/Kynt/Desktop/Kynt Webdev/Photoshop Course/Porfolio Project/stylesheet.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorgame.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorgame.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorgame.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/DOMSelector.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/todo.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/todo.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/selector.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/scoreKeeper.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/scorekeeper.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/scorekeeper.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorchanger.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorchanger.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/selector.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/DOMSelector.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/Index.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/script.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/Age Restriction.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/age.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/Purrfect.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/purrfect.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/ImageGallery.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/gallery.md",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/gallery.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/Gridsysytem.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/navbar.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/bootstrap.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/BootstrapBasics.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"3",
+			"fluid"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "documentation.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"assets\\css\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Kynt\\Desktop\\Web Dev files\\tuitt\\csp1\\Outline.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
