@@ -200,13 +200,37 @@ body {
 /* 	Primary Content Right 	*/
 /****************************/
 .right-primary-content {
-	/*width:100%;*/
-	height:450px;
-	background-color: grey;
-	border: 1px solid black;
+ 	margin: 20px 0;
 }
 
 
+
+/****************************/
+/* 		Side bar TOP 	 	*/
+/****************************/
+
+.title-top-sidebar {
+	border-left: 5px solid #e03800;
+}
+
+/****************************/
+/*	 	Side bar BOTTOM 	*/
+/****************************/
+
+.top-sidebar-ranking-number {
+	text-align: center;
+	padding-top: 13px;
+	border: 1px solid black;
+	height: 50px;
+}
+
+.top-sidebar-ranking-content {
+	text-align: center;
+	max-width:100%;
+	height:50px;
+	background-color: grey;
+	border:1px solid black;
+}
 /****************************/
 /* 			Footer	 		*/
 /****************************/
@@ -228,7 +252,7 @@ body {
 }
 
 .comment-form {
-	width: 100%;
+	width: 90%;
 }
 
 .comment-textarea {
