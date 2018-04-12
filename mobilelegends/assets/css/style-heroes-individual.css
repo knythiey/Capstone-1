@@ -1,0 +1,619 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+        
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 5rem;
+    /*margin: 0;*/
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+/**********************************/
+/*            Parallax            */            
+/**********************************/
+.parallax1{
+    /* The image used */
+    background-image: url("../img/wrapper-wallpaper2.png");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    /* The image used */
+    background-image: url("../img/parallax3.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/**********************************/
+/*            Fonts               */            
+/**********************************/
+
+/*font-family: 'Fira Sans', sans-serif;*/
+
+
+/**********************************/
+/*            1stWrapper          */            
+/**********************************/
+.main-wrapper { 
+    /* Full height */
+    height: auto; 
+    width: 100%;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    margin-top: 200px;
+}
+
+/**********************************/
+/*            NAVBAR              */            
+/**********************************/
+.navbar-inverse {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;   
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+/**********************************/
+/*            HERODETAILS         */            
+/**********************************/
+
+/*left side*/
+.hero-left-cont {
+    text-align: center;
+    color:white;
+    font-family: "Fira Sans", sans-serif;
+}
+.hero-avatar-left {
+    border:5px inset #999;
+    margin-top: 20px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+.hero-left-cont > h3 {
+    color: gold;
+    padding: 10px 0 0;
+    margin: 0;
+}
+
+.hero-left-cont > h5 {
+    letter-spacing: 3px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.hero-left-cont > ul > li {
+    list-style: none;
+    float: left;
+    width: 24%;
+    margin:0 2.7px 10px ;
+}
+
+.skill-def > small  {
+    font-size: 1.3rem;   
+}
+
+.skill-def + img {
+    margin: 0 auto;   
+}
+
+/*right side*/
+
+.hero-right-cont {
+    font-family: "Fira Sans", sans-serif;
+    color:white; 
+}
+
+.tab-title {
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.gif-img {
+    border:5px inset #999;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.img-span > img {
+    position: relative;
+    top:-15px;
+    margin-top: 10px;
+}
+
+.gif-img ~ h3 {
+    letter-spacing: 3px;
+    padding: 0 0 10px;
+    margin: 0;
+    display: inline-block;
+}
+
+.gif-img ~ p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+
+
+/**********************************/
+/*			  heroeslist 		  */			
+/**********************************/
+.heroes-wrapper {
+    background-color: #330033;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    color:white;
+    text-align: center;
+    margin:0 auto;
+    height: auto;
+    width:100%;
+}
+
+.heroes-container {
+    position:relative;
+
+}
+
+.heroes-small-container{
+    width:50%;
+}
+
+.heroes-wrapper > h3 {
+    padding: 20px 0;
+    font-size: 5rem;
+    margin:0;
+    letter-spacing: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    display: inline-block;
+}
+
+.hero-small{
+    display: inline-block;
+    width:30%;
+    margin: 5px;
+}
+
+.hero-small a {
+    text-decoration: none;
+}
+
+.hero-small img {
+    border:3px inset #999;
+    border-radius: 3%;
+}
+
+.hero-name {
+    position:relative;
+    top:-23px;
+    left:-15px;
+    text-decoration: none;
+    color: gold;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+}
+
+.hero-avatar {
+    width: 50%;
+    position:absolute;
+    right:0;
+    top:0;
+    height: auto;
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.hero-avatar-preview-img {
+    margin:10% auto 0;
+    height:100%;
+    border: 10px inset #999;
+    border-radius: 5%;
+}
+
+.hero-name-avatar {
+    letter-spacing: 5px;
+    font-size: 3rem;
+}
+
+.hero-icon-animation {
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.hero-icon-animation:hover {
+    opacity: 1.0;
+    transition: opacity .20s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.hero-small:hover .hero-avatar {
+    opacity: 1.0;
+    visibility: visible;
+}
+
+/**********************************/
+/*            footer              */            
+/**********************************/
+.seventh-wrapper {
+    background-color: black;
+    height: auto;
+    color: white;
+}
+
+.home-footer {
+    background-color: rgb(43,45,49);
+    color: white;
+}
+
+.newsletter-footer {
+    margin-top: 10px;
+}
+
+.newsletter-footer > h4 {
+    color:white;
+}
+
+.subscribe-form {
+    width:50%;
+}
+
+.subscribe-email-width {
+}
+
+.comment-form {
+    width: 90%;
+}
+
+.comment-textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#subscribe-button {
+    margin-bottom: 10px;
+}
+
+.subscription-note {
+    color: lightgrey;
+}
+
+/*SocIAL MEDIA*/
+.fa:hover {
+    opacity: 0.7;
+}
+
+.social-media > ul > li {
+    list-style: none;
+    float:left;
+    margin-right: 15px;
+    font-size: 2.5rem;
+}
+
+.social-media > ul > li > a {
+    color:white;
+    text-decoration: none;
+}
+
+.social-media > h4 {
+    color:white;
+}
+
+.brand-logo {
+    margin-top: 10px;
+    display: block;
+    font-size: 10rem;
+    text-align: left;
+}
+/**********************************/
+/*           Media Queries        */    
+/**********************************/
+
+@media only screen and (max-device-width: 360px) {
+     /*Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+    .main-wrapper {
+        background-attachment: scroll;
+    }
+    h2 {
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 3px;
+    }
+    /*aligning the li during toggle button on small screens*/
+    .navbar-inverse  .navbar-collapse {
+        text-align:center;
+    }
+    /*2nd-wrapper*/
+    .second-wrapper {
+        height:auto;
+        padding-top: 20px;
+    }
+
+    .trailer-video {
+        width: 100%;
+        height:200px;
+    }
+    
+    /*fourth wrapper*/
+    .hero-avatar {
+        display:none;
+    }
+    
+    .hero-small {
+        width:25%;
+    }
+
+    .hero-name {
+        font-size: 1rem;
+        left:0;
+    }
+    .heroes-small-container {
+        width:100%;
+    }
+    .hero-left-cont > ul > li {
+    list-style: none;
+    float: left;
+    width: 22%;
+    margin:0 2.7px 10px ;
+    }
+
+    .skill-def > small  {
+    font-size: .6rem;   
+    }
+
+    .gif-img ~ h3 {
+    letter-spacing: 1px;
+    padding: 0 0 10px;
+    font-size: 1.8rem;
+    display: inline-block;
+    }
+
+    .img-span > img {
+    position: relative;
+    top:-7px;
+    margin-top: 10px;
+    }
+
+    .newsletter-footer > h4 {
+        font-size: 2rem;
+    }
+
+    .heroes-wrapper > h3 {
+        font-size: 2rem;
+    }
+
+    .heroes-container {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 767px) {
+    h2 {
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    }
+
+    /*aligning the li during toggle button on small screens*/
+    .navbar-inverse  .navbar-collapse {
+        text-align:center;
+    }
+    .navbr-brand {
+        display: none;
+    }
+    #carousel-header {
+        font-size: 1.5rem;
+    }
+    /*fourth wrapper*/
+    .hero-avatar {
+        display:none;
+    }
+    
+    .hero-small {
+        width:25%;
+    }
+
+    .hero-name {
+        font-size: 1rem;
+        left:0;
+    }
+    .heroes-small-container {
+        width:100%;
+    }
+    .hero-left-cont > ul > li {
+        list-style: none;
+        float: left;
+        width: 23%;
+        margin:0 2.7px 10px ;
+    }
+
+    .skill-def > small  {
+        font-size: 0.8rem;   
+    }
+
+    .gif-img ~ h3 {
+        letter-spacing: 1px;
+        padding: 0 0 10px;
+        font-size: 1.9rem;
+        display: inline-block;
+    }
+
+    .img-span > img {
+        position: relative;
+        top:-3px;
+        margin-top: 10px;
+    }
+
+    .newsletter-footer > h4 {
+        font-size: 2rem;
+    }
+
+    .heroes-wrapper > h3 {
+        font-size: 2rem;
+    }
+
+    .heroes-container {
+        padding-bottom: 0;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    /*for justifying the navbar contents*/
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
+        height:70px;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+        vertical-align: middle;
+    }
+    /*for hidding the brand on the left part*/
+    #img-brand {
+        display:none;
+    }
+    /*for displaying icons at the top of text*/
+    #navbar-icons {
+    font-size: 2.3rem;
+    display: block;
+    margin:0 auto;
+    padding-bottom: 3px;
+    }
+
+    /*fourth wrapper*/
+    .hero-avatar {
+        display:none;
+    }
+    
+    .hero-small {
+        width:25%;
+    }
+
+    .hero-name {
+        font-size: 1.5rem;
+        left:-20px;
+        top:-25px;
+    }
+    .heroes-small-container {
+        width:100%;
+    }
+    .hero-left-cont > ul > li {
+        list-style: none;
+        float: left;
+        width: 23%;
+        margin:0 2.7px 10px ;
+    }
+
+    .skill-def {
+        font-size: 0.7rem;   
+    }
+
+    .gif-img ~ h3 {
+        letter-spacing: 1px;
+        padding: 0 0 10px;
+        font-size: 2.6rem;
+        display: inline-block;
+    }
+
+    .img-span > img {
+        position: relative;
+        top:-7px;
+        margin-top: 10px;
+    }
+
+    .newsletter-footer > h4 {
+        font-size: 2rem;
+    }
+
+    .heroes-wrapper > h3 {
+        font-size: 2rem;
+    }
+
+    .heroes-container {
+        padding-bottom: 0;
+    }
+    .skill-def {
+        font-size: 2.3rem;   
+    }
+    .skill-def + img {
+        margin: 0 auto;   
+    }
+    .gif-img {
+        margin-top: 15px;
+    }
+} 
+
+@media only screen and (min-width: 1025px){
+    /*for justifying the navbar contents*/
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
+        height:70px;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #img-brand {
+        display: none;
+    }
+    .hero-left-cont > ul{
+        margin-bottom: 10px;
+    }
+
+    .hero-left-cont > ul > li {
+        list-style: none;
+        float: left;
+        width: 22%;
+        margin:0 2.7px 10px ;
+    }
+
+    .skill-def {
+        font-size: 1.2rem;   
+    }
+} 
