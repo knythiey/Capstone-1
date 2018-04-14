@@ -249,6 +249,13 @@ h3 {
     border-radius: 3%;
 }
 
+.hero-small img:hover {
+    border:6px inset #3163ce;
+    border-radius: 3%;
+    transition: transform .4s;
+    transform: scale(1.2);
+}
+
 .hero-name {
     position:relative;
     top:-23px;
