@@ -23,6 +23,38 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/**********************************/
+/*            NAVBAR              */            
+/**********************************/
+.navbar-inverse {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid #999;
+    letter-spacing: 2px;   
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+/*for displaying icons at the top of text*/
+#navbar-icons {
+    font-size: 2.3rem;
+    display: block;
+    margin:0 auto;
+    padding-bottom: 3px;
+}
+
+/*navbar animation*/
+.navbar-nav>li:hover {
+    transition: transform .4s;
+    transform: scale(1.1);
+    background-color: #c0c0c0;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 1px solid #999;
+} 
 /**********************************/
 /*            1stWrapper          */            
 /**********************************/
@@ -47,12 +79,21 @@ body, html {
 h1 {
     font-family: 'Fira Sans', sans-serif;
     letter-spacing: 3px;
-    font-size: 5rem;
-    font-weight: bold;
+    font-size: 5.5rem;
+    font-weight: bolder;
+    background-color:rgb(34,34,34);
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border:1px solid #999;
+    padding:3px;
+    color: white;
 }
 
 h3 {
 	font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: bolder;
 }
 
 hr {
@@ -60,46 +101,132 @@ hr {
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	align-content: middle;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-.btn-primary a {
+.cta-btn {
+    transition: transform .4s;
+    border: 1px solid #999;
+
+} 
+
+.cta-btn:hover {
+    transition: transform .4s;
+    transform: scale(1.7);
+    background-color: rgb(255,50,255);
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 1px solid #999;
+} 
+
+.cta-btn a {
     color:white;
     text-decoration: none;
 }
 
-.fa-korvue {
+.cta-btn .fa-korvue {
     padding-top: 2px;
     color: black;
     font-size: 2rem;
 }
 
-/**********************************/
-/*            NAVBAR              */            
-/**********************************/
-.navbar-inverse {
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;   
+.mythic {
+    color:rgb(255,50,255);
 }
 
-.navbar-brand {
-    text-align: center;
+.mythic:hover {
+    font-weight: bolder;
 }
+
+/**********************************/
+/*            COMMENTS          */            
+/**********************************/
+
+.comments {
+    color:white;
+    background-color: rgb(34, 34, 34);
+    margin:5% auto;
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #999;
+
+
+}
+.comments > h3 {
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.comment-form {
+    width: 100%;
+    padding: 20px;
+}
+
+label {
+    margin-top: 5px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 50%;
+}
+.comment-textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 150px;
+}
+
+#comment-button {
+    padding-bottom:10px;
+}
+
+#comment-button:hover {
+    color:white;
+    font-size: 1.5rem;
+    background-color:blue;
+    font-weight: bold;
+}
+
 
 /**********************************/
 /*            footer              */            
 /**********************************/
-.seventh-wrapper {
-    height: auto;
-    color: white;
-}
-
 .home-footer {
     background-color: rgb(43,45,49);
     color: white;
 }
 
+.seventh-wrapper {
+    height: auto;
+    color: white;
+}
+
+.copyright{
+    padding-top: 6px;
+}
+
+.social-media > ul > li {
+    list-style: none;
+    float:left;
+    margin-right: 15px;
+    font-size: 2.5rem;
+}
+
+.social-media > ul > li > a {
+    color:white;
+    text-decoration: none;
+    transition: transform .4s ;
+}
+
+.social-media > ul > li:hover {
+    transform: scale(1.5);
+}
 /**********************************/
 /*           Media Queries        */    
 /**********************************/
@@ -112,11 +239,32 @@ hr {
     h1 {
     	font-family: 'Fira Sans', sans-serif;
     	letter-spacing: 3px;
+        font-size: 3rem;
     }
     /*aligning the li during toggle button on small screens*/
     .navbar-inverse  .navbar-collapse {
         text-align:center;
     }
+
+    .navbar-hr {
+        display:block;
+        margin:0;
+    }
+
+    /*comments*/
+    .comments {
+        width:80%;
+    }
+
+    input[type="text"], input[type="email"] {
+    width: 100%;
+    }
+
+    .social-media > ul > li {
+        margin-top: 10px;
+        margin-right: 9px;
+    }
+
 }
 
 @media only screen and (min-width: 361px) and (max-width: 767px) {
@@ -132,6 +280,22 @@ hr {
     .navbr-brand {
         display: none;
     }
+
+    /*comments*/
+    .comments {
+        width:80%;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 100%;
+    }
+
+    .social-media > ul > li {
+        margin-top: 10px;
+        margin-right: 9px;
+    }
+
+
 }
 
 
@@ -161,6 +325,33 @@ hr {
     display: block;
     margin:0 auto;
     padding-bottom: 3px;
+    }
+    /*comments*/
+    .comments {
+        width:80%;
+    }
+
+    input[type="text"], input[type="email"] {
+    width: 100%;
+    }
+
+    .social-media > ul > li {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    /*comments*/
+    .comments {
+        width:80%;
+    }
+
+    input[type="text"], input[type="email"] {
+    width: 100%;
+    }
+
+    .social-media > ul > li {
+        margin-top: 10px;
+        margin-right: 10px;
     }
 } 
 

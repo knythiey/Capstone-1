@@ -5,23 +5,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	
-	<title>Mobile Legends Guide</title>
+	<title>Mobile Legends Guide: Heroes</title>
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Lato:400,700" rel="stylesheet">
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	
 	<!-- Font Awesome -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	
 	<!-- Custom CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style-landing.css">
 </head>
 <body>
 	<!-- 1st wrapper -->
-	<div class="container main-wrapper">
+	<div class="main-wrapper parallax2">
 		<!-- <img src="assets/img/mainwrapperwallpaper.jpeg" alt="mainwrapper wallpaper"> -->
-		<div class="navbar-container">
-			<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container navbar-container">
+			<nav class="navbar navbar-inverse">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,58 +38,62 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <div class="img-brand">
-				      <a class="navbar-brand" href="#">
-						MLBB
+			      <div id="img-brand">
+				      <a class="navbar-brand" href="index.html">
+						<i class="fab fa-korvue"></i> MLBB
 				      </a>
 			      </div>
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
+			      <ul class="nav navbar-nav pull-center">
+			      	<!-- <li><a href="#" class="navbar-brand-li">MLBB</a></li> -->
 			      	<li class="divider-vertical"></li>
-			        <li class="active"><a href="#">GAME <span class="sr-only">(current)</span></a></li>
+			        <li><a href="home.html"><span><i class="fas fa-gamepad" id="navbar-icons"></i></span> <strong>GAME</strong></a></li>
 			      	<li class="divider-vertical"></li>
-			        <li><a href="#">HEROES</a></li>
+			        <li><a href="heroes.html"><span><i class="fas fa-trophy" id="navbar-icons"></i></span> <strong>HEROES</strong></a></li>
 			      	<li class="divider-vertical"></li>
-			        <li><a href="#">MINIONS</a></li>
+			        <li><a href="about.html"><span><i class="fab fa-korvue" id="navbar-icons"></i></span> <strong>ABOUT</strong></a></li>
 			      	<li class="divider-vertical"></li>
-			        <li><a href="#">ABOUT</a></li>
-			      	<li class="divider-vertical"></li>
-			        <li><a href="#">CONTACT</a></li>
+			        <li><a href="contact.html"><span><i class="fas fa-envelope" id="navbar-icons"></i></span> <strong>CONTACT</strong></a></li>
 			      	<li class="divider-vertical"></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			</nav>
 
-		</div><!-- /.container-fluid -->
-	</div>
+			<div class="container landing-page">
+				<h1>Mobile Legends Guide</h1>
+				<h3><strong>Site for helping you achieve that <span class="mythic">Mythic Rank</span></strong></h3>
+				<hr>
+				<button class="btn btn-primary btn-lg cta-btn"><a href="home.html"><i class="fab fa-korvue"></i> To Mythic Rank!</a></button>
+			</div>
 
-	<!-- 2nd wrapper -->
-	<div class="2nd-wrapper">
-		<h3>Calling all heroes</h3>
-	</div>
-	<!-- 3rd wrapper -->
-	<div class="3rd-wrapper">
-		<h3>MOBA: Play with your friends</h3>
-	</div>
-	<!-- 4th wrapper -->
-	<div class="4th-wrapper">
-		<h3>Heroes of Mobile Legends: Bang Bang</h3>
-	</div>
-	<!-- 5th wrapper -->
-	<div class="5th-wrapper">
-		<h3>Team up with friends to be crowned champions</h3>
-	</div>
-	<!-- 6th wrapper -->
-	<div class="6th-wrapper">
-		<h3>Weekly Events to keep the game fresh</h3>
-	</div>
-	<!-- 7th wrapper -->
-	<div class="7th-wrapper">
-		<footer></footer>
-	</div>
+		</div><!-- /.container-fluid -->
+	</div><!--main-wrapper-->
+	<!-- footer -->
+
+	<!-- footer -->
+	<footer class="home-footer">
+		<div class="container seventh-wrapper">
+			<div class="row">
+				<div class="col-xs-6">
+					<div> </div>
+					<p class="copyright"><small >Copyright &copy; Kynt Tabudlong Inc. <i class="fab fa-korvue"></i> All rights reserved</small></p>	
+				</div>
+				<div class="col-xs-6">
+					<div class="social-media clearfix pull-right">
+						<ul>
+							<li><a href="https://facebook.com/knythiey"><i class="fab fa-facebook"></i></a></li>
+							<li><a href="https://github.com/knythiey"><i class="fab fa-github-square"></i></a></li>
+							<li><a href="https://mailto:kynt.tabudlong@googlemail.com"><i class="fas fa-envelope"></i></a></li>
+							<li><a href="https://instagram.com/knythiey"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<!-- Bootstrap Requires jQuery -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

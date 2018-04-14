@@ -37,7 +37,7 @@ h2 {
 
 .parallax2{
     /* The image used */
-    background-image: url("../img/parallax3.jpg");
+    background-image: url("../img/parallax2.jpg");
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
@@ -63,12 +63,6 @@ h2 {
     background-color: black;
 }
 
-h1 {
-    text-align: center;
-    color:white;
-    margin-top: 200px;
-}
-
 /**********************************/
 /*            NAVBAR              */            
 /**********************************/
@@ -81,9 +75,31 @@ h1 {
     text-align: center;
 }
 
+/*for displaying icons at the top of text*/
+#navbar-icons {
+    font-size: 2.3rem;
+    display: block;
+    margin:0 auto;
+    padding-bottom: 3px;
+}
+
+/*navbar animation*/
+.navbar-nav>li:hover {
+    transition: transform .4s;
+    transform: scale(1.1);
+    background-color: #c0c0c0;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 1px solid #999;
+} 
+
 /**********************************/
 /*            HERODETAILS         */            
 /**********************************/
+.hero-details-container {
+    background-color: #330033;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
 
 /*left side*/
 .hero-left-cont {
@@ -166,9 +182,7 @@ h1 {
 /**********************************/
 /*			  heroeslist 		  */			
 /**********************************/
-.heroes-wrapper {
-    background-color: #330033;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+.heroes-wrapper {    
     color:white;
     text-align: center;
     margin:0 auto;
@@ -207,6 +221,14 @@ h1 {
 .hero-small img {
     border:3px inset #999;
     border-radius: 3%;
+}
+
+
+.hero-small img:hover {
+    border:6px inset #3163ce;
+    border-radius: 3%;
+    transition: transform .4s;
+    transform: scale(1.2);
 }
 
 .hero-name {
@@ -263,87 +285,43 @@ h1 {
 /**********************************/
 /*            footer              */            
 /**********************************/
-.seventh-wrapper {
-    background-color: black;
-    height: auto;
-    color: white;
-}
-
 .home-footer {
     background-color: rgb(43,45,49);
     color: white;
 }
 
-.newsletter-footer {
-    margin-top: 10px;
+.seventh-wrapper {
+    height: auto;
+    color: white;
 }
 
-.newsletter-footer > h4 {
-    color:white;
-}
-
-.subscribe-form {
-    width:50%;
-}
-
-.subscribe-email-width {
-}
-
-.comment-form {
-    width: 90%;
-}
-
-.comment-textarea {
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 100%;
-    min-height: 100px;
-}
-
-input {
-    margin-bottom: 10px;
-}
-
-#subscribe-button {
-    margin-bottom: 10px;
-}
-
-.subscription-note {
-    color: lightgrey;
-}
-
-/*SocIAL MEDIA*/
-.fa:hover {
-    opacity: 0.7;
+.copyright{
+    padding-top: 6px;
 }
 
 .social-media > ul > li {
     list-style: none;
     float:left;
-    margin-right: 15px;
+    margin-right: 10px;
     font-size: 2.5rem;
+    padding-top: 3px;
 }
 
 .social-media > ul > li > a {
     color:white;
     text-decoration: none;
+    transition: transform .4s ;
 }
 
-.social-media > h4 {
-    color:white;
+.social-media > ul > li:hover {
+    transform: scale(1.5);
 }
 
-.brand-logo {
-    margin-top: 10px;
-    display: block;
-    font-size: 10rem;
-    text-align: left;
-}
 /**********************************/
 /*           Media Queries        */    
 /**********************************/
 
-@media only screen and (max-device-width: 360px) {
+@media only screen and (max-device-width: 361px) {
      /*Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
     .main-wrapper {
         background-attachment: scroll;
@@ -418,6 +396,12 @@ input {
     .heroes-container {
         padding-bottom: 0;
     }
+    /*footer*/
+    .social-media > ul > li {
+        margin-top: 15px;
+        margin-right: 7px;
+        font-size:1.7rem;
+    }
 }
 
 @media only screen and (min-width: 361px) and (max-width: 767px) {
@@ -487,6 +471,12 @@ input {
 
     .heroes-container {
         padding-bottom: 0;
+    }
+    /*footer*/
+    .social-media > ul > li {
+        margin-top: 15px;
+        margin-right: 7px;
+        font-size:1.7rem;
     }
 }
 
