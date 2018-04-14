@@ -222,6 +222,10 @@ h3 {
 /**********************************/
 /*            ABOUT               */            
 /**********************************/
+h4 {
+    font-family: 'leto', sans-serif;
+    font-size: 2.5rem;
+}
 
 /*About self*/
 
@@ -233,41 +237,29 @@ h3 {
 
 .about-img-container {
     width:100%;
-    height:100px;
-    margin: 0 auto;  
-}
-
-.media-object {
-    height:190px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    border-radius: 20%;
-    border: 5px inset /*#4267b2*/ #999;
-}
-
-.about-media-img {
-    width:100%;
-    height: 100%;
-}
-
-/*target market*/
-
-.about-target-market {
-    color: white;
-    height: auto;
-    width:100%;
-    margin:0 auto;
-}
-
-.about-img-container2 {
-    width:100%;
     height:auto;
     margin: 0 auto;  
 }
 
-.media-body {
+.about-media-img {
+    width:200px;
+    height:200px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 20%;
+    border: 5px inset #999;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-right-container {
     letter-spacing: 2px;
-    width: 100%;
+}
+
+/*target market*/
+
+.target-market {
+    color: white;
 }
 
 /*target market need*/
