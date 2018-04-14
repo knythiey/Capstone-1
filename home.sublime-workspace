@@ -1,0 +1,653 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mrgin",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"block",
+				"block"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"conten",
+				"align-content"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"easy",
+				"Easy"
+			],
+			[
+				"mode",
+				"modeBtn"
+			],
+			[
+				"messa",
+				"messageDisplay"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"t",
+				"transform-origin"
+			],
+			[
+				"num",
+				"numSquares"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"pick",
+				"pickedColor"
+			],
+			[
+				"m",
+				"Math"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"mesage",
+				"messageDisplay"
+			],
+			[
+				"pcike",
+				"pickedColor"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"backgroui",
+				"background-size"
+			],
+			[
+				"dog",
+				"Dog"
+			],
+			[
+				"password",
+				"password"
+			],
+			[
+				"li",
+				"li\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 6594,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style-heroes.css",
+			"settings":
+			{
+				"buffer_size": 133319,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style-heroes-individual.css",
+			"settings":
+			{
+				"buffer_size": 12644,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 18439,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/assets/css/style-landing.css",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/assets/css/style.css",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes-folder/eudora.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes-folder/zilong.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes-folder/tigreal.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes-folder/ruby.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes-folder/rafaela.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes-folder/pharsa.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes-folder/lesley.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes-folder/layla.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes-folder/lance.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/index.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/home.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/heroes.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/comments.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/contact.html",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/assets/css/style-heroes-individual.css",
+		"/C/Users/Kynt/Desktop/Folders/WebDev/tuitt/cps1/mobilelegends/landingpage.html",
+		"/C/Users/Kynt/Desktop/default/index.html",
+		"/C/Users/Kynt/Desktop/cms/css/styles.css",
+		"/C/Users/Kynt/Desktop/openingFiles.php",
+		"/C/Users/Kynt/Desktop/cms/css/blog-home.css",
+		"/C/Users/Kynt/Desktop/cms/css/blog-post.css",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/Julians/home.html",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/Julians/css/aboutUs.css",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/Julians/css/optusYes.css",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/Julians/optusYes.html",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/Julians/css/style.css",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/Julians/esyBusiness.html",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/Julians/css/esyBusiness.css",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/Julians/about.html",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/Julians/aboutUs.css",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/1st Project/Homepage.html",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/1st Project/homepage.css",
+		"/C/Users/Kynt/Desktop/site/css/style.css",
+		"/C/Users/Kynt/Desktop/site/home.html",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/1st Project/asrasdg.html",
+		"/C/Users/Kynt/Desktop/WebDev Files/Photoshop Course/Course Files/Final Website/about.html",
+		"/C/Users/Kynt/Desktop/WebDev Files/Photoshop Course/Course Files/Final Website/stylesheet.css",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/imagegrid.css",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/imageLinks.html",
+		"/C/Users/Kynt/Desktop/WebDesign Project/Esy-Digital/1st Project/asrasdg.html;",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/HTML/Pokemon Chart.HTML",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/todoList.css",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/todoList.html",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/boxmodel.html",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/blogexercise.html",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/tictactoe.css",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/selectors.css",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/selectordemo.html",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/fonts.css",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/boxmodel.css",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/CSS/tictactoe.html",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/Bootstrap/Projects/navbar.html",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/Bootstrap/Projects/Gridsysytem.html",
+		"/C/Users/Kynt/Desktop/WebDev Files/Udemy Online Course/Topics/Bootstrap/Projects/BootstrapBasics.html",
+		"/C/Users/Kynt/Desktop/CodeAlong 4/data.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/paperjsexercise.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/paperjsexercise.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/patatapCloneProject/assets/css/circle.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/toDoListProject/index.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/toDoListProject/assets/js/toDoList.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/toDoListProject/assets/css/styles.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/toDoList.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/events.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/effects.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/jQueryExercise.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/jQueryMethods.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/jQueryEvents.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/scorekeeper.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/jQuery/jQueryDemo.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorgame.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorgame.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorgame.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorchanger.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/DOM/colorchanger.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/todolist.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/objects.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/objects.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/arraysproblemset.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/new.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/arraysproblemset.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/annoy.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/functions.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/todolist.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/guess.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/functions.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/Gridsysytem.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/tictactoe.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/boxmodel.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/annoy.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/Whileandforloops.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/whileandforloops.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/Whileloops.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/whileloops.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/guessing.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/Age Restriction.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/JavaScript/age.js",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/BootstrapBasics.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Bootstrap/Projects/BootstrapBasics.hmtl",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/blogexercise.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/blogexercise.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/imageLinks.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/imagegrid.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/tictactoe.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/fonts.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/HTML/Pokemon Chart.HTML",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/boxmodel.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/fonts.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/09-Selector-Exercise-Starter/09_Selector_Exercise_Starter/selectorsExercise.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/09-Selector-Exercise-Starter/09_Selector_Exercise_Starter/selectors.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/selectors.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/selectordemo.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/specificity.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/todoList.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/todoList.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/aboutme.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/CSS/apps.css",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/input.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/forms.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/HTML/3rd exercise.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/firstpage.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/3rd exercise.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Pokemon Chart.HTML",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/2nd exercise.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/Read this Gabby.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/1st exercise.html",
+		"/C/Users/Kynt/Desktop/Udemy Online Course/Projects/page2.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"margin",
+			"class=\"main-content\"",
+			"<h1>",
+			"<h",
+			"<h1>",
+			";\n",
+			"<h3>BROKER</h3>\n\n<p>\n\tI'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.\t\n</p>\n\n<hr>\n\n<button>LEARN MORE</button>\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2963,
+								2963
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 107.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "assets/css/style-heroes.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37579,
+								37579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3143.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/style-heroes-individual.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.596875,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "home.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
