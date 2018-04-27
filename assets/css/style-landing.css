@@ -16,7 +16,8 @@ body, html {
     /* The image used */
     background-image: url("../img/parallax3.jpg");
     /* Full height */
-    height: 100%;
+    min-height: 100%;
+    height: auto;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -31,7 +32,8 @@ body, html {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border: 1px solid #999;
-    letter-spacing: 2px;   
+    letter-spacing: 2px; 
+    overflow: hidden;  
 }
 
 .navbar-brand {
@@ -49,12 +51,24 @@ body, html {
 /*navbar animation*/
 .navbar-nav>li:hover {
     transition: transform .4s;
-    transform: scale(1.1);
-    background-color: #c0c0c0;
+    transform: scale(1.15);
     font-weight: bolder;
-    border-radius: 10px;
-    border: 1px solid #999;
+    background-color: #c0c0c0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid black;
 } 
+/*active navbar bg color*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #c0c0c0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
 /**********************************/
 /*            1stWrapper          */            
 /**********************************/
@@ -62,11 +76,12 @@ body, html {
     height: 100%; 
     width: 100%;
     background-color: black;
+    padding-bottom: 20px;
 }
 
 .landing-page{
 	text-align: center;
-    padding-top: 25%;
+    padding-top: 5%;
     text-shadow: 0px, 4px, 3px, rgba(0,0,0,0.7),
     			 0px,8px, 13px, rgba(0,0,0,0.1),
     			 0px,18px, 23px, rgba(0,0,0,0.1);
@@ -94,6 +109,11 @@ h3 {
 	font-family: 'Lato', sans-serif;
     color: white;
     font-weight: bolder;
+    letter-spacing: 2px;
+    text-shadow:-1px 0px black,
+                0px -1px black,
+                1px 0px black,
+                0px 1px black;
 }
 
 hr {
@@ -101,23 +121,31 @@ hr {
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	align-content: middle;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 .cta-btn {
     transition: transform .4s;
     border: 1px solid #999;
+    letter-spacing: 3px;
+    box-shadow: 0px 0px 10px white,
+                0px 0px 20px white,
+                0px 0px 30px white,
+                0px 0px 40px white,   
+                0px 0px 50px white,   
+                0px 0px 60px white;
 
 } 
 
 .cta-btn:hover {
     transition: transform .4s;
-    transform: scale(1.7);
+    transform: scale(1.3);
     background-color: rgb(255,50,255);
     font-weight: bolder;
     border-radius: 10px;
     border: 1px solid #999;
+    text-transform: uppercase;
 } 
 
 .cta-btn a {
@@ -127,16 +155,12 @@ hr {
 
 .cta-btn .fa-korvue {
     padding-top: 2px;
-    color: black;
+    color: white;
     font-size: 2rem;
 }
 
 .mythic {
     color:rgb(255,50,255);
-}
-
-.mythic:hover {
-    font-weight: bolder;
 }
 
 /**********************************/
@@ -178,7 +202,7 @@ input[type="text"], input[type="email"] {
 .comment-textarea {
     max-width: 100%;
     min-width: 100%;
-    max-height: 100%;
+    max-height: 175px;
     min-height: 150px;
 }
 
@@ -200,6 +224,8 @@ input[type="text"], input[type="email"] {
 .home-footer {
     background-color: rgb(43,45,49);
     color: white;
+    height: auto;
+    overflow: hidden;
 }
 
 .seventh-wrapper {
@@ -225,7 +251,7 @@ input[type="text"], input[type="email"] {
 }
 
 .social-media > ul > li:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
 /**********************************/
 /*           Media Queries        */    
@@ -233,7 +259,9 @@ input[type="text"], input[type="email"] {
 
 @media only screen and (max-device-width: 360px) {
      /*Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-    .main-wrapper {
+    .parallax2 {
+        height: auto;
+        min-height: 100%;
         background-attachment: scroll;
     }
     h1 {
@@ -268,6 +296,11 @@ input[type="text"], input[type="email"] {
 }
 
 @media only screen and (min-width: 361px) and (max-width: 767px) {
+     .parallax2 {
+        height: auto;
+        min-height: 100%;
+    }
+
     h1 {
 	    font-family: 'Fira Sans', sans-serif;
 	    letter-spacing: 3px;

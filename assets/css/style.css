@@ -88,7 +88,8 @@ h1 {
 /**********************************/
 .navbar-inverse {
 	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px;	
+	border-bottom-right-radius: 30px;
+	overflow:hidden;	
 }
 
 .navbar-brand {
@@ -106,12 +107,23 @@ h1 {
 /*navbar animation*/
 .navbar-nav>li:hover {
     transition: transform .4s;
-    transform: scale(1.1);
-    background-color: #c0c0c0;
+    transform: scale(1.15);
     font-weight: bolder;
-    border-radius: 10px;
-    border: 1px solid #999;
+    background-color: #c0c0c0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid black;
 } 
+/*active navbar bg color*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #c0c0c0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
 
 /**********************************/
 /*			  2ndWrapper 		  */			
@@ -232,6 +244,10 @@ h3 {
     margin:0;
     letter-spacing: 5px;
     font-family: 'Fira Sans', sans-serif;
+    text-shadow: -1px 0px black,
+				 0px 1px black,
+				 1px 0px black,
+				 0px -1px black;
 }
 
 .hero-small{
@@ -245,25 +261,34 @@ h3 {
 }
 
 .hero-small img {
-    border:3px inset #999;
+    border:2px inset #999;
     border-radius: 3%;
 }
 
 .hero-small img:hover {
-    border:6px inset #3163ce;
+    border:1px inset #3163ce;
     border-radius: 3%;
     transition: transform .4s;
     transform: scale(1.2);
+	box-shadow: -1px 0px 10px #3163ce,
+			 0px 1px 20px #3163ce,
+			 1px 0px 30px #3163ce,
+			 0px -1px 40px #3163ce,
+			 0px 0px 50px #3163ce;
 }
 
 .hero-name {
     position:relative;
-    top:-23px;
-    left:-15px;
+    top:-20px;
+    left:-20px;
     text-decoration: none;
-    color: gold;
     font-size: 1.6rem;
     letter-spacing: 3px;
+    color: white;
+	text-shadow: -1px 0px black,
+				 0px 1px black,
+				 1px 0px black,
+				 0px -1px black;
 }
 
 .hero-avatar {
@@ -277,11 +302,29 @@ h3 {
     opacity: 0;
 }
 
+/*Glowing Effect*/
+.hero-avatar-desc > h3, .hero-avatar-desc > h5{
+	text-shadow: -1px 0px 10px #c0c0c0,
+				 0px 1px 20px #c0c0c0,
+				 1px 0px 30px #c0c0c0,
+				 0px -1px 40px #c0c0c0,
+				 0px 0px 50px #c0c0c0,
+				 0px 0px 60px #c0c0c0,
+				 0px 0px 70px #c0c0c0;
+}
+
 .hero-avatar-preview-img {
     margin:10% auto 0;
     height:100%;
     border: 10px inset #999;
     border-radius: 5%;
+    box-shadow:  0px 0px 10px #c0c0c0,
+				 0px 0px 20px #c0c0c0,
+				 0px 0px 30px #c0c0c0,
+				 0px 0px 40px #c0c0c0,
+				 0px 0px 50px #c0c0c0,
+				 0px 0px 60px #c0c0c0,
+				 0px 0px 70px #c0c0c0;
 }
 
 .hero-name-avatar {
@@ -290,7 +333,7 @@ h3 {
 }
 
 .hero-icon-animation {
-    opacity: 0.8;
+    opacity: 0.9;
     transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
@@ -386,6 +429,7 @@ h3 {
 .home-footer {
     background-color: rgb(43,45,49);
     color: white;
+    overflow: hidden;
 }
 
 .seventh-wrapper {
@@ -504,7 +548,7 @@ h3 {
 
 }
 
- @media only screen and (min-width: 361px) and (max-width: 767px) {
+@media only screen and (min-width: 361px) and (max-width: 767px) {
 	h1 {
 		font-size: 2.7rem;
     }
@@ -649,8 +693,8 @@ h3 {
 
 	.hero-name {
 		font-size: 1.5rem;
-		left:-20px;
-		top:-25px;
+		left:-25px;
+		top:-20px;
 	}
 	.heroes-small-container {
 		width:100%;
@@ -667,6 +711,15 @@ h3 {
 	color:white;
 	}
 } 
+
+/*Ipad Pro*/
+@media only screen and (width: 1024px){
+	.hero-name {
+		font-size: 1.5rem;
+		left:-50px;
+		top:-20px;
+	}
+}
 
 @media only screen and (min-width: 1025px){
 	/*for justifying the navbar contents*/
@@ -688,11 +741,4 @@ h3 {
     #img-brand {
     	display: none;
     }
-
-    /*footer*/
-	/*.social-media > ul > li {
-        margin-top: 15px;
-        margin-right: 7px;
-    }
-*/
 } 
